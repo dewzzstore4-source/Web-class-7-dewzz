@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelas 7C - Daftar Siswa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e3f2fd; /* Biru muda netral */
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white; /* Putih */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #1976d2; /* Biru tua untuk kontras */
+        }
+        .student-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .student-card {
+            background-color: #bbdefb; /* Biru muda untuk kartu */
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .student-photo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .student-name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #0d47a1; /* Biru gelap untuk nama */
+        }
+        .student-birth {
+            font-size: 14px;
+            color: #424242; /* Abu-abu gelap untuk tanggal */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Daftar Siswa Kelas 7C</h1>
+        <div class="student-grid">
+            <!-- Siswa 1 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Agung Suryana" class="student-photo">
+                <div class="student-name">Agung Suryana</div>
+                <div class="student-birth">Tanggal Lahir: 01/01/2010</div>
+            </div>
+            <!-- Siswa 2 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Alpin Maulana Sari" class="student-photo">
+                <div class="student-name">Alpin Maulana</div>
+                <div class="student-birth">Tanggal Lahir: 02/01/2010</div>
+            </div>
+            <!-- Siswa 3 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Andini Angrayni" class="student-photo">
+                <div class="student-name">Andini Angrayni</div>
+                <div class="student-birth">Tanggal Lahir: 03/01/2010</div>
+            </div>
+            <!-- Siswa 4 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Anisa Maharani" class="student-photo">
+                <div class="student-name">Anisa Maharani</div>
+                <div class="student-birth">Tanggal Lahir: 04/01/2010</div>
+            </div>
+            <!-- Siswa 5 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Aulia Purnamasari" class="student-photo">
+                <div class="student-name">Aulia Purnamasari</div>
+                <div class="student-birth">Tanggal Lahir: 05/01/2010</div>
+            </div>
+            <!-- Siswa 6 -->
+            <div class="student-card">
+                <img src="https://files.catbox.moe/xlehdd.jpg" alt="Foto Azmi Asta Dewa" class="student-photo">
+                <div class="student-name">Azmi Asta Dewa</div>
+                <div class="student-birth">Tanggal Lahir: 21/03/2012</div>
+            </div>
+            <!-- Siswa 7 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Reza Aditya Mahendra" class="student-photo">
+                <div class="student-name">Reza Aditya Mahendra</div>
+                <div class="student-birth">Tanggal Lahir: 07/01/2010</div>
+            </div>
+            <!-- Siswa 8 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Anisa Putri Lestari" class="student-photo">
+                <div class="student-name">Anisa Putri Lestari</div>
+                <div class="student-birth">Tanggal Lahir: 08/01/2010</div>
+            </div>
+            <!-- Siswa 9 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Farhan Ramadhan" class="student-photo">
+                <div class="student-name">Farhan Ramadhan</div>
+                <div class="student-birth">Tanggal Lahir: 09/01/2010</div>
+            </div>
+            <!-- Siswa 10 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Rina Amelia Sari" class="student-photo">
+                <div class="student-name">Rina Amelia Sari</div>
+                <div class="student-birth">Tanggal Lahir: 10/01/2010</div>
+            </div>
+            <!-- Siswa 11 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Teguh Wibowo" class="student-photo">
+                <div class="student-name">Teguh Wibowo</div>
+                <div class="student-birth">Tanggal Lahir: 11/01/2010</div>
+            </div>
+            <!-- Siswa 12 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Nadia Fitriani" class="student-photo">
+                <div class="student-name">Nadia Fitriani</div>
+                <div class="student-birth">Tanggal Lahir: 12/01/2010</div>
+            </div>
+            <!-- Siswa 13 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Arif Rahman Hakim" class="student-photo">
+                <div class="student-name">Arif Rahman Hakim</div>
+                <div class="student-birth">Tanggal Lahir: 13/01/2010</div>
+            </div>
+            <!-- Siswa 14 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Sari Indah Permata" class="student-photo">
+                <div class="student-name">Sari Indah Permata</div>
+                <div class="student-birth">Tanggal Lahir: 14/01/2010</div>
+            </div>
+            <!-- Siswa 15 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Yoga Saputra" class="student-photo">
+                <div class="student-name">Yoga Saputra</div>
+                <div class="student-birth">Tanggal Lahir: 15/01/2010</div>
+            </div>
+            <!-- Siswa 16 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Laila Nur Aini" class="student-photo">
+                <div class="student-name">Laila Nur Aini</div>
+                <div class="student-birth">Tanggal Lahir: 16/01/2010</div>
+            </div>
+            <!-- Siswa 17 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Dimas Eko Prasetyo" class="student-photo">
+                <div class="student-name">Dimas Eko Prasetyo</div>
+                <div class="student-birth">Tanggal Lahir: 17/01/2010</div>
+            </div>
+            <!-- Siswa 18 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Intan Permatasari" class="student-photo">
+                <div class="student-name">Intan Permatasari</div>
+                <div class="student-birth">Tanggal Lahir: 18/01/2010</div>
+            </div>
+            <!-- Siswa 19 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Rafli Adi Nugroho" class="student-photo">
+                <div class="student-name">Rafli Adi Nugroho</div>
+                <div class="student-birth">Tanggal Lahir: 19/01/2010</div>
+            </div>
+            <!-- Siswa 20 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Wulan Sari Dewi" class="student-photo">
+                <div class="student-name">Wulan Sari Dewi</div>
+                <div class="student-birth">Tanggal Lahir: 20/01/2010</div>
+            </div>
+            <!-- Siswa 21 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Agus Setiawan" class="student-photo">
+                <div class="student-name">Agus Setiawan</div>
+                <div class="student-birth">Tanggal Lahir: 21/01/2010</div>
+            </div>
+            <!-- Siswa 22 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Ratih Ayu Lestari" class="student-photo">
+                <div class="student-name">Ratih Ayu Lestari</div>
+                <div class="student-birth">Tanggal Lahir: 22/01/2010</div>
+            </div>
+            <!-- Siswa 23 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Bayu Kurniawan" class="student-photo">
+                <div class="student-name">Bayu Kurniawan</div>
+                <div class="student-birth">Tanggal Lahir: 23/01/2010</div>
+            </div>
+            <!-- Siswa 24 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Desi Ratna Sari" class="student-photo">
+                <div class="student-name">Desi Ratna Sari</div>
+                <div class="student-birth">Tanggal Lahir: 24/01/2010</div>
+            </div>
+            <!-- Siswa 25 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Hendra Wijaya" class="student-photo">
+                <div class="student-name">Hendra Wijaya</div>
+                <div class="student-birth">Tanggal Lahir: 25/01/2010</div>
+            </div>
+            <!-- Siswa 26 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Mira Indah Sari" class="student-photo">
+                <div class="student-name">Mira Indah Sari</div>
+                <div class="student-birth">Tanggal Lahir: 26/01/2010</div>
+            </div>
+            <!-- Siswa 27 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Rizki Maulana" class="student-photo">
+                <div class="student-name">Rizki Maulana</div>
+                <div class="student-birth">Tanggal Lahir: 27/01/2010</div>
+            </div>
+            <!-- Siswa 28 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Sari Dewi Kusuma" class="student-photo">
+                <div class="student-name">Sari Dewi Kusuma</div>
+                <div class="student-birth">Tanggal Lahir: 28/01/2010</div>
+            </div>
+            <!-- Siswa 29 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Taufik Hidayat" class="student-photo">
+                <div class="student-name">Taufik Hidayat</div>
+                <div class="student-birth">Tanggal Lahir: 29/01/2010</div>
+            </div>
+            <!-- Siswa 30 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Yuniarti Sari" class="student-photo">
+                <div class="student-name">Yuniarti Sari</div>
+                <div class="student-birth">Tanggal Lahir: 30/01/2010</div>
+            </div>
+            <!-- Siswa 31 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Zainal Abidin" class="student-photo">
+                <div class="student-name">Zainal Abidin</div>
+                <div class="student-birth">Tanggal Lahir: 31/01/2010</div>
+            </div>
+            <!-- Siswa 32 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Aulia Rahman" class="student-photo">
+                <div class="student-name">Aulia Rahman</div>
+                <div class="student-birth">Tanggal Lahir: 01/02/2010</div>
+            </div>
+            <!-- Siswa 33 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Bella Citra Lestari" class="student-photo">
+                <div class="student-name">Bella Citra Lestari</div>
+                <div class="student-birth">Tanggal Lahir: 02/02/2010</div>
+            </div>
+            <!-- Siswa 34 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Chandra Wijaya" class="student-photo">
+                <div class="student-name">Chandra Wijaya</div>
+                <div class="student-birth">Tanggal Lahir: 03/02/2010</div>
+            </div>
+            <!-- Siswa 35 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Dian Puspita Sari" class="student-photo">
+                <div class="student-name">Dian Puspita Sari</div>
+                <div class="student-birth">Tanggal Lahir: 04/02/2010</div>
+            </div>
+            <!-- Siswa 36 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Eko Santoso" class="student-photo">
+                <div class="student-name">Eko Santoso</div>
+                <div class="student-birth">Tanggal Lahir: 05/02/2010</div>
+            </div>
+            <!-- Siswa 37 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Fitri Nur Aini" class="student-photo">
+                <div class="student-name">Fitri Nur Aini</div>
+                <div class="student-birth">Tanggal Lahir: 06/02/2010</div>
+            </div>
+            <!-- Siswa 38 -->
+            <div class="student-card">
+                <img src="https://via.placeholder.com/100" alt="Foto Gilang Ramadhan" class="student-photo">
+                <div class="student-name">Gilang Ramadhan</div>
+                <div class="student-birth">Tanggal Lahir: 07/02/2010</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
